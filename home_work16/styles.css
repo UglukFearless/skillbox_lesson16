@@ -1,0 +1,89 @@
+#app {
+  text-align: center;
+}
+
+.comment-block {
+  text-align: left;
+  width: 50%;
+  margin: 20px auto 10px auto;
+  position: relative;
+}
+
+.comment {
+  font-size: 18px;
+  margin: 10px auto;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 10px 35px;
+  min-height: 100px;
+}
+
+.comment:hover {
+  border: 1px solid #333355;
+}
+
+.half-line {
+  width: 50%;
+  margin: 30px auto;
+}
+
+.user-name {
+  padding-left: 20px;
+  font-size: 20px;
+  font-style: italic;
+  color: #999;
+  background: url() 2px 3px no-repeat;
+  background-image: url('./images/person.png'), none;
+}
+
+.time-stamp {
+  padding-left: 20px;
+  font-size: 20px;
+  font-style: italic;
+  color: #999;
+  float:right;
+  background: url() 2px 6px no-repeat;
+  background-image: url('./images/time-stamp.png'), none;
+}
+
+.trash {
+  position: absolute;
+  right: 5px;
+  top: 40px;
+  cursor: pointer;
+}
+
+.comment-form {
+  text-align: left;
+  width: 50%;
+  margin: 20px auto 10px auto;
+  position: relative;
+}
+
+.comment-form input[type="text"] {
+  width: 100%;
+  font-size: 18px;
+  margin-bottom: 16px;
+  background: url() 4px 8px no-repeat;
+  background-image: url('./images/person.png'), none;
+  padding-left: 24px;
+}
+
+.comment-form textarea {
+  width: 100%;
+  min-height: 160px;
+  font-size: 18px;
+  margin-bottom: 16px;
+  background: url() 4px 10px no-repeat;
+  background-image: url('./images/post.png'), none;
+  text-indent: 14px;
+}
+
+.invisible {
+  display: none;
+}
+
+.comment-form button {
+  width: 120px;
+  font-weight: bold;
+}
