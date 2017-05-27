@@ -1,28 +1,24 @@
-Модули необходимые для написания приложения с использование реакт
+Урок предназначенный для изучения применения react + redux.
+
+Модули необходимые для написания приложения с использование react + redux
 
 react
 react-dom
+react-redux
+redux
 
 + webpack
 + babel-core
 + babel-loader
 + babel-preset-es2015
-babel-preset-react
++ babel-preset-react
 
-JSX - Специальный синтаксис, предназначенный для написания react-приложений
+Исходные файлы содержатся в папке
+src:
+--actions
+--components
+--containers
+--redusers
+--index.js - точка входа.
 
-const Button = (props) => {
-  return <button className="btn" disabled>{props.text}</button>
-}
-
-будет преобразовано в:
-
-var Button = function Button(props) {
-  return React.createElement(
-    "button",
-    { className: "btn", disabled: true },
-    props.text
-  );
-}
-
-Для разработки можно так же использовать webpack-dev-server
+Сборка осуществляется в папку build.
